@@ -1,0 +1,46 @@
+#diningContent {
+}
+
+.Sectiontitle {
+    font-size: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.ItemName {
+    text-align: right;
+}
+.ItemPrice {
+    text-align: left;
+}
+.ItemName, .ItemPrice {
+    font-size: 15px;
+
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 50%;
+    padding: 5px 20px 5px 20px;
+}
+#Dtitle {
+    background-color: #FFF;
+    border-radius: 20px;
+}
+.section {
+    background-color: #FFF;
+    margin: 5px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#DiningLink {
+    border-bottom: 2px #ff6e40 solid;
+}
+
+@media only screen and (max-width: 767px) {
+    #DiningLink {
+        background-color: #ff6e40;
+        border-bottom: 0;
+    }
+}

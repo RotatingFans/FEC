@@ -1,0 +1,74 @@
+.formRow {
+    text-align: center;
+
+}
+
+#ContactForm {
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#ContactForm input {
+    width: 80%;
+    border: none;
+    border-bottom: 2px #ff9e80 solid;
+    outline: none;
+    padding: 12px 20px;
+    margin: 4px 0;
+
+}
+
+#ContactForm input:focus {
+    border-bottom: 2px #ff3d00 solid;
+
+}
+
+#ContactMessage:focus {
+    border-bottom: 2px #ff3d00 solid;
+
+}
+
+#ContactForm h3 {
+    margin: 5px 1px auto;
+}
+
+#ContactContent {
+    background-color: #FFFFFF;
+}
+
+#ContactMessage {
+    width: 80%;
+    height: 100%;
+    resize: vertical;
+    outline: none;
+    border: none;
+    padding: 12px 10px;
+    margin: 4px 0;
+    border-bottom: 2px #ff9e80 solid;
+
+}
+
+#ContactForm input[type=submit] {
+    background-color: #cfd8dc;
+    border-bottom: 1px #90A4AE solid;
+    cursor: pointer;
+}
+
+#ContactForm input[type=submit]:hover {
+    border-bottom: 1px #FFF solid;
+}
+
+#ContactLink {
+    border-bottom: 2px #ff6e40 solid;
+}
+
+.error {
+    color: RED;
+}
+
+@media only screen and (max-width: 767px) {
+    #ContactLink {
+        background-color: #ff6e40;
+        border-bottom: 0;
+    }
+}
